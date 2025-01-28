@@ -3,17 +3,30 @@
 ### Completion Instructions
 
 <details>
-<summary>Functionalities</summary>
-The app have the following functionalities
+<summary>Difference between Update and New</summary>
 
-- Adds users when the **Add** button is clicked
-- Deletes user when the **Delete** button is clicked
-- Updates user details when the **Update** button is clicked
-- Cancels user update selection form when **cancel** button is clicked and returns to add form
-- Displays an error message with the text **Required** for an empty field on blur
-- When the **Submit** button is clicked, displays an error message with the text **Required** for an empty field,
-- Displays the **Submitted Successfully** on successful submit
-- When **Submit Another Response** button is clicked, then the form returns to Add form
+- Does not display **ID** field in update state as id is assigned to that selected user.
+- Displays **Cancel** button only in update state.
+
+  
+- Shows **Add** button only in new state.
+- Displays **ID** field in new state.
+
+
+
+</details>
+
+<details>
+<summary>Functionalities</summary>
+
+- Adds users when the **Add** button is clicked.
+- Deletes user when the **Delete** button is clicked.
+- Updates user details when the **Update** button is clicked.
+- Cancels user update selection form when **Cancel** button is clicked and returns to new form.
+- Displays an error message with the text **Required** for an empty field on blur.
+- When the **Submit** button is clicked, displays an error message with the text **Required** for an empty field.
+- Displays the **Submitted Successfully** on successful submit.
+- When **Submit Another Response** button is clicked, then the form returns to new form.
 
 </details>
 
@@ -41,5 +54,13 @@ The app have the following functionalities
 <summary>Font-families</summary>
 
 - Roboto
+
+</details>
+
+<details>
+<summary>Others</summary>
+
+- Took resources and used what is present at that time.
+- if time given , multipaged app can be achieved instead of scrolling app
 
 </details>
