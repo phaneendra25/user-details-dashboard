@@ -1,4 +1,4 @@
-# User Management Dashboard
+# User Management Dashboard Readme
 
 ### Completion Instructions
 
@@ -57,8 +57,10 @@
 
 </details>
 
+
+## Others
 <details>
-<summary>Others</summary>
+
 
 - Took resources and used what is present at that time.
 - if time given , multipaged app can be achieved instead of scrolling app
